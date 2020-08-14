@@ -1,5 +1,14 @@
 # Bank-Marketing-Analysis
 Find the best strategies to improve for the next marketing campaign. How can the financial institution have a greater effectiveness for future marketing campaigns? In order to answer this, we have to analyze the last marketing campaign the bank performed and identify the patterns that will help us find conclusions in order to develop future strategies.
+The three main questions answered in this project are:
+Question 1: Is the account balance related to education level?
+Question 2: What make your customer default?
+Question 3: How to acquire more deposits for your bank?
+### Summary of the results (takeaways)
+1. Pay attention to customers who engaged in the last campaign and made a deposit. We usually will guess that those customers will not make deposits in the consecutive campaigns. But we are wrong. Those customers will be high likely to participate in your new campaign.
+2. Try to make customers more engaged during the contact. Banks should do more research about the customer before the contact. If you make your customer willing to talk with your more than 8 minutes, you may get a new deposit.
+3. Choose a right time to conduct the campaign. The project result shows us it’s better to start a campaign in March or October. Only 10%-20% customers will say no to you during these months.
+Find more details from this [Medium article](https://medium.com/@JinzeL/know-your-customers-and-get-more-deposits-for-your-bank-60c3f4036398)
 ## Installation
 This project runs in python 3.7. You need to install several python library to run this project, including:
 1. numpy
@@ -8,6 +17,12 @@ This project runs in python 3.7. You need to install several python library to r
 4. seaborn
 5. sklearn
 6. xgboost
+## Files Description
+- data folder: contains all data files
+- references folder: contains all references (data attributes dictionary)
+- Bank Marketing Analysis.ipynb: Jupyter Notebook shows all codes and analytics
+- LICENSE: license used for this repo
+
 ## Attributes Description
 ### Input variables
 #### bank client data:
